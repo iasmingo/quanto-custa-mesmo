@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quanto Custa Mesmo?</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>💸 Quanto Custa Mesmo?</h1>
+  <p class="subtitle">O preço é só o começo. Descubra o custo real antes de comprar.</p>
+</header>
+
+<div class="container">
+  <div class="config">
+    <details>
+      <summary>⚙️ Configurar API Key (DeepSeek)</summary>
+      <input type="password" id="apiKey" placeholder="Cole sua API key da DeepSeek aqui" />
+    </details>
+  </div>
+
+  <div class="input-area">
+    <input type="text" id="product" placeholder="Digite um produto para analisar..." />
+    <button id="btn">Analisar →</button>
+  </div>
+
+  <div class="examples" id="examples">
+    <p>Experimente:</p>
+    <div class="example-chips">
+      <button class="chip" data-product="iPhone 16 Pro">iPhone 16 Pro</button>
+      <button class="chip" data-product="Air Fryer Philips">Air Fryer Philips</button>
+      <button class="chip" data-product="Cafeteira Nespresso">Cafeteira Nespresso</button>
+      <button class="chip" data-product="Kindle Paperwhite">Kindle Paperwhite</button>
+      <button class="chip" data-product="PlayStation 5">PlayStation 5</button>
+    </div>
+  </div>
+
+  <div class="loading" id="loading"><span>⏳ Analisando custo real...</span></div>
+  <div class="error" id="error"></div>
+  <div class="result" id="result"></div>
+</div>
+
+<footer>
+  Ferramenta de análise crítica de consumo • Feita com IA • Preços são estimativas
+</footer>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>
