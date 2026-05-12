@@ -1,4 +1,4 @@
-# Quanto Custa Mesmo?
+# Quanto custa mesmo?
 
 *Quanto custa mesmo?* é uma ferramenta web de análise crítica de consumo que utiliza IA generativa para revelar o custo real de um produto, para além do preço de etiqueta.
 
@@ -8,7 +8,7 @@ O projeto surgiu a partir de algumas convicções pessoais. A primeira é o **di
 
 ## Sobre
 
-*Quanto Custa Mesmo?* parte de duas premissas simples: a de que o preço de um produto não reflete seu custo real e a de que informação é condição para um consumo consciente. A ferramenta recebe o nome de um produto e devolve uma análise estruturada que inclui:
+*Quanto custa mesmo?* parte de duas premissas simples: a de que o preço de um produto não reflete seu custo real e a de que informação é condição para um consumo consciente. A ferramenta recebe o nome de um produto e devolve uma análise estruturada que inclui:
 
 - **Custo por uso**. Durabilidade estimada e custo mensal em diferentes cenários.
 - **Reparabilidade**. Facilidade de conserto, disponibilidade de peças, postura da marca.
