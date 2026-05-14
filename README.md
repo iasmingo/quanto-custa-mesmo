@@ -15,7 +15,7 @@ O projeto surgiu a partir de algumas convicções pessoais. A primeira é o **di
 - **Custos ocultos**. Acessórios obrigatórios, assinaturas, *lock-in* de ecossistema.
 - **Perguntas provocativas**. Questões específicas que o consumidor raramente se faz antes de comprar.
 - **Alternativas**. Opções usadas, concorrentes, soluções *DIY* ou de reparo.
-- **Veredito**. Uma opinião clara e fundamentada sobre a decisão de compra
+- **Veredito**. Uma opinião clara e fundamentada sobre a decisão de compra.
 
 ## Tendência explorada
 
@@ -57,11 +57,6 @@ quanto-custa-mesmo/
 ├── markdown.js     
 └── README.md
 ```
-
-## Ferramentas utilizadas no desenvolvimento
-
-- **[Kiro CLI](https://kiro.dev)**. Assistente de IA para desenvolvedores criado pela Amazon, utilizado na modalidade chat interativo para geração de código, iteração no *prompt* e resolução de problemas técnicos.
-- **[DeepSeek API](https://platform.deepseek.com)**. Modelo de linguagem que executa a análise de produtos em tempo real.
 
 ## Contexto acadêmico
 
